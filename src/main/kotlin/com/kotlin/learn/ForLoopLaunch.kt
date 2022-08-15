@@ -7,7 +7,7 @@ class ForLoopLaunch
 fun main() = runBlocking {
     println("started ${Thread.currentThread().name}")
     for (int in 1..5) {
-        val job:Job = launch {
+        val job: Job = launch {
             getIntValue(int)
         }
     }
