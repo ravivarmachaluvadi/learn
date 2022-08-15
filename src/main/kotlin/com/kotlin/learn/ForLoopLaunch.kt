@@ -11,6 +11,7 @@ fun main() = runBlocking {
             getIntValue(int)
         }
     }
+    
     println("ended ${Thread.currentThread().name}")
 }
 
